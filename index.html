@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="loader-bg">
+            <img class="bitcoin" src="img/bitcon.gif" alt="">
+    </div>
+    <div class="body">
+        <div class="login-body">
+            <div class="login-header">
+                <h1>Login</h1>
+                <p>Don't have an account? <a href="">sign up</a></p>
+            </div>
+            <div class="log-interface">
+                <h2 class="log-grid1">Email</h2>
+                <div class="inputBox log-grid2">
+                    <input type="email" name="" required="required">
+                    <span class="line"></span>
+                </div>
+                <h2 class="log-grid3">Password</h2>
+                <div class="inputBox log-grid4">
+                    <input type="password" name="" required="required">
+                    <span class="line"></span>
+                </div>
+                <p class="log-grid5"><a href="">Forget Password?</a></p>
+                <button class="log-grid6" type="submit">Submut</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader-bg').fadeToggle();
+        }, 3000);
+    </script>
+</body>
+
+</html>
