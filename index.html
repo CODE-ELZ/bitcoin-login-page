@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <div class="loader-bg">
-            <img class="bitcoin" src="./img/bitcon.gif" alt="">
+            <img class="bitcoin" src="img/bitcon.gif" alt="">
     </div>
     <div class="body">
         <div class="login-body">
             <div class="login-header">
-                <h1>Login</h1>
+                <h1>Log in</h1>
                 <p>Don't have an account? <a href="">sign up</a></p>
             </div>
             <div class="log-interface">
                 <h2 class="log-grid1">Email</h2>
                 <div class="inputBox log-grid2">
-                    <input type="email" name="" required="required">
+                    <input type="text" name="" required="required" placeholder="email/user-name">
                     <span class="line"></span>
                 </div>
                 <h2 class="log-grid3">Password</h2>
                 <div class="inputBox log-grid4">
-                    <input type="password" name="" required="required">
+                    <input type="password" name="" required="required" placeholder="password">
                     <span class="line"></span>
                 </div>
                 <p class="log-grid5"><a href="">Forget Password?</a></p>
@@ -42,7 +42,7 @@
     <script>
         setTimeout(function(){
             $('.loader-bg').fadeToggle();
-        }, 3000);
+        }, 1500);
     </script>
 </body>
 
